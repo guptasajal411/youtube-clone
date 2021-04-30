@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://kit.fontawesome.com/a9bed65047.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Icons" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+    <link rel="icon" href="images/favicon.ico" />
+    <title>Youtube</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <span class="material-icons-outlined lightIcon menu"> menu </span>
+        <a href="index.html" class="youtubeAnchor">
+            <img src="images/yt.png" alt="" class="ytIcon" width="80px" />
+        </a>
+        <div class="searchDiv">
+            <form action="http://www.youtube.com/results" method="get" class="form">
+                <input name="search_query" type="text" class="searchBar" placeholder="Search" />
+                <button class="searchButton" type="submit">
+                    <span class="material-icons-outlined lightIcon searchIcon">
+                        search
+                    </span>
+                </button>
+                
+                    <span class="material-icons-outlined lightIcon mic"> mic </span>
+                
+            </form>
+        </div>
+        <div class="endItems">
+            <span class="material-icons lightIcon icon videoCall lastIcons">
+                video_call
+            </span>
+            <span class="material-icons lightIcon icon lastIcons"> apps </span>
+            <span class="material-icons lightIcon icon lastIcons">
+                notifications
+            </span>
+            <span class="material-icons lightIcon icon lastIcons">
+                account_circle
+            </span>
+        </div>
+    </nav>
+
+    <div class="group">
+        <div class="video-section">
+            <nav class="columnNav" id="myDIV">
+                <div class="container active">
+                    <span class="material-icons columnNavbarIcons"> home </span>
+                    <h4>Home</h4>
+                </div>
+                <div class="container">
+                    <span class="material-icons columnNavbarIcons">
+                        explore
+                    </span>
+                    <h4>Explore</h4>
+                </div>
+                <div class="container">
+                    <span class="material-icons columnNavbarIcons">
+                        subscriptions
+                    </span>
+                    <h4>Subscriptions</h4>
+                </div>
+                <div class="container">
+                    <span class="material-icons columnNavbarIcons">
+                        video_library
+                    </span>
+                    <h4>Library</h4>
+                </div>
+                <div class="container">
+                    <span class="material-icons columnNavbarIcons">
+                        history
+                    </span>
+                    <h4>History</h4>
+                </div>
+                <div class="container">
+                    <span class="material-icons columnNavbarIcons">
+                        slideshow
+                    </span>
+                    <h4>Your Videos</h4>
+                </div>
+                <div class="container">
+                    <span class="material-icons columnNavbarIcons">
+                        watch_later
+                    </span>
+                    <h4>Watch Later</h4>
+                </div>
+                <div class="container">
+                    <span class="material-icons columnNavbarIcons">
+                        thumb_up
+                    </span>
+                    <h4>Liked Videos</h4>
+                </div>
+                <div class="container">
+                    <span class="material-icons columnNavbarIcons">
+                        expand_more
+                    </span>
+                    <h4>Show More</h4>
+                </div>
+                <hr class="hrForColumnNavbar">
+                <p class="columnNavbarSection" style="font-size: 90%;">
+                    MORE FROM YOUTUBE
+                </p>
+                <div class="container">
+                    <span class="material-icons columnNavbarIcons">
+                        smart_display
+                    </span>
+                    <h4>Youtube Premium</h4>
+                </div>
+                <div class="container">
+                    <span class="material-icons columnNavbarIcons">
+                        local_movies
+                    </span>
+                    <h4>Films</h4>
+                </div>
+                <div class="container">
+                    <span class="material-icons columnNavbarIcons">
+                        sports_esports
+                    </span>
+                    <h4>Gaming</h4>
+                </div>
+                <div class="container">
+                    <span class="material-icons columnNavbarIcons">
+                        dry_cleaning
+                    </span>
+                    <h4>Fashion</h4>
+                </div>
+                <div class="container">
+                    <span class="material-icons columnNavbarIcons">
+                        lightbulb
+                    </span>
+                    <h4>Learning</h4>
+                </div>
+                <div class="container">
+                    <span class="material-icons columnNavbarIcons">
+                        emoji_events
+                    </span>
+                    <h4>Sport</h4>
+                </div>
+                <hr class="hrForColumnNavbar">
+                <div class="container">
+                    <span class="material-icons columnNavbarIcons">
+                        settings
+                    </span>
+                    <h4>Settings</h4>
+                </div>
+                <div class="container">
+                    <span class="material-icons columnNavbarIcons">
+                        flag
+                    </span>
+                    <h4>Report history</h4>
+                </div>
+                <div class="container">
+                    <span class="material-icons columnNavbarIcons">
+                        help
+                    </span>
+                    <h4>Help</h4>
+                </div>
+                <div class="container">
+                    <span class="material-icons columnNavbarIcons">
+                        feedback
+                    </span>
+                    <h4>Send feedback</h4>
+                </div>
+            </nav>
+            <div class="genre">
+                <ul>
+                    <li>All</li>
+                    <li>Science Fiction</li>
+                    <li>Comedy</li>
+                    <li>Live</li>
+                    <li>Sports</li>
+                    <li>Trailers</li>
+                    <li>Thriller</li>
+                    <li>Apple</li>
+                    <li>Music</li>
+                    <li>PewDiePie</li>
+                    <li>Lectures</li>
+                    <li>Gadgets</li>
+                    <li>Recent Uploaded</li>
+                    <li>Technology</li>
+                </ul>
+            </div>
+            <div class="video-container">
+                <a href="#" class="thumbnailAnchor">
+                    <img src="images/thumbnails/lwiay.jpg" alt="thumbnail" class="thumbnail" />
+                </a>
+                <div class="videoDetails">
+                    <table>
+                        <tr>
+                            <th class="profileWrapper">
+                                <a href="#">
+                                    <img src="https://yt3.ggpht.com/ytc/AAUvwnga3eXKkQgGU-3j1_jccZ0K9m6MbjepV0ksd7eBEw=s176-c-k-c0x00ffffff-no-rj-mo" alt="profile pic"
+                                        class="profilePic" />
+                                </a>
+                            </th>
+                            <th>
+                                <a href="#" class="channelName">
+                                    <p class="videoTitle">🔴 LWIAY LIVE 🔴</p>
+                                </a>
+                            </th>
+                        </tr>
+                    </table>
+                    <div class="videoInfo">
+                        <a href="#" class="channelName">
+                            <p class="channelNameParagraph">PewDiePie</p>
+                        </a>
+                        <a href="#" class="channelName">
+                            <p class="channelMetadataParagraph">2.3M views • Streamed 3 months ago</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="video-container">
+                <a href="#" class="thumbnailAnchor">
+                    <img src="images/thumbnails/dude perfect.jpg" alt="thumbnail" class="thumbnail" />
+                </a>
+                <div class="videoDetails">
+                    <table>
+                        <tr>
+                            <th class="profileWrapper">
+                                <a href="#">
+                                    <img src="https://yt3.ggpht.com/ytc/AAUvwni8alaul0s34_VP1Vgo9zQvdvXPacigPR_40AgdpA=s176-c-k-c0x00ffffff-no-rj-mo" alt="profile pic"
+                                        class="profilePic" />
+                                </a>
+                            </th>
+                            <th>
+                                <a href="#" class="channelName">
+                                    <p class="videoTitle">Real Life Trick Shots | Dude Perfect</p>
+                                </a>
+                            </th>
+                        </tr>
+                    </table>
+                    <div class="videoInfo">
+                        <a href="#" class="channelName">
+                            <p class="channelNameParagraph">Dude Perfect</p>
+                        </a>
+                        <a href="#" class="channelName">
+                            <p class="channelMetadataParagraph">288M views • 3 years ago</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="video-container">
+                <a href="#" class="thumbnailAnchor">
+                    <img src="images/thumbnails/eddie.jpg" alt="thumbnail" class="thumbnail" />
+                </a>
+                <div class="videoDetails">
+                    <table>
+                        <tr>
+                            <th class="profileWrapper">
+                                <a href="#">
+                                    <img src="https://yt3.ggpht.com/ytc/AAUvwnifaQZvAunS0OFb2y_cieoVjLCVjqQW8Exf3BC1gg=s176-c-k-c0x00ffffff-no-rj-mo" alt="profile pic"
+                                        class="profilePic" />
+                                </a>
+                            </th>
+                            <th>
+                                <a href="#" class="channelName">
+                                    <p class="videoTitle">Complete Guide to Open Source - How to Contribute
+                                    </p>
+                                </a>
+                            </th>
+                        </tr>
+                    </table>
+                    <div class="videoInfo">
+                        <a href="#" class="channelName">
+                            <p class="channelNameParagraph">freeCodeCamp.org</p>
+                        </a>
+                        <a href="#" class="channelName">
+                            <p class="channelMetadataParagraph">86k views • 6 months ago</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="video-container">
+                <a href="#" class="thumbnailAnchor">
+                    <img src="images/thumbnails/jacklyn.jpg" alt="thumbnail" class="thumbnail" />
+                </a>
+                <div class="videoDetails">
+                    <table>
+                        <tr>
+                            <th class="profileWrapper">
+                                <a href="#">
+                                    <img src="https://yt3.ggpht.com/ytc/AAUvwngf-MSbG25lDnMh826NXP94YOirlbGFmZX4hljZSMw=s176-c-k-c0x00ffffff-no-rj-mo" alt="profile pic"
+                                        class="profilePic" />
+                                </a>
+                            </th>
+                            <th>
+                                <a href="#" class="channelName">
+                                    <p class="videoTitle">YOUR DEVPOST SUBMISSIONS SUCK... lets fix that!
+                                    </p>
+                                </a>
+                            </th>
+                        </tr>
+                    </table>
+                    <div class="videoInfo">
+                        <a href="#" class="channelName">
+                            <p class="channelNameParagraph">Jacklyn Biggin</p>
+                        </a>
+                        <a href="#" class="channelName">
+                            <p class="channelMetadataParagraph">1.2k views • 2 months ago</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="video-container">
+                <a href="#" class="thumbnailAnchor">
+                    <img src="https://unsplash.it/360/200?gravity=center" alt="thumbnail" class="thumbnail" />
+                </a>
+                <div class="videoDetails">
+                    <table>
+                        <tr>
+                            <th class="profileWrapper">
+                                <a href="#">
+                                    <img src="https://unsplash.it/36/36?gravity=center" alt="profile pic"
+                                        class="profilePic" />
+                                </a>
+                            </th>
+                            <th>
+                                <a href="#" class="channelName">
+                                    <p class="videoTitle">Video Title</p>
+                                </a>
+                            </th>
+                        </tr>
+                    </table>
+                    <div class="videoInfo">
+                        <a href="#" class="channelName">
+                            <p class="channelNameParagraph">Channel Name</p>
+                        </a>
+                        <a href="#" class="channelName">
+                            <p class="channelMetadataParagraph">9 hours ago • 153k views</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="video-container">
+                <a href="#" class="thumbnailAnchor">
+                    <img src="images/thumbnails/mlh.jpg" alt="thumbnail" class="thumbnail" />
+                </a>
+                <div class="videoDetails">
+                    <table>
+                        <tr>
+                            <th class="profileWrapper">
+                                <a href="#">
+                                    <img src="https://yt3.ggpht.com/ytc/AAUvwniKnjJ4jAqGUrmp5q79CtJkNLwnkEt2kvJe4XXcMQ=s176-c-k-c0x00ffffff-no-rj-mo" alt="profile pic"
+                                        class="profilePic" />
+                                </a>
+                            </th>
+                            <th>
+                                <a href="#" class="channelName">
+                                    <p class="videoTitle">Get to Know the MLH Fellowship!</p>
+                                </a>
+                            </th>
+                        </tr>
+                    </table>
+                    <div class="videoInfo">
+                        <a href="#" class="channelName">
+                            <p class="channelNameParagraph">Major League Hacking</p>
+                        </a>
+                        <a href="#" class="channelName">
+                            <p class="channelMetadataParagraph">142 views • Streamed 1 week ago</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="video-container">
+                <a href="#" class="thumbnailAnchor">
+                    <img src="images/thumbnails/mkbhd.jpg" alt="thumbnail" class="thumbnail" />
+                </a>
+                <div class="videoDetails">
+                    <table>
+                        <tr>
+                            <th class="profileWrapper">
+                                <a href="#">
+                                    <img src="https://yt3.ggpht.com/ytc/AAUvwngW9TQgw7E7NqS3Qzd3Up3tjUzkpvMXPWAhYf3LaQ=s176-c-k-c0x00ffffff-no-rj-mo" alt="profile pic"
+                                        class="profilePic" />
+                                </a>
+                            </th>
+                            <th>
+                                <a href="#" class="channelName">
+                                    <p class="videoTitle">Apple AirTags Unboxing & Demo!
+                                    </p>
+                                </a>
+                            </th>
+                        </tr>
+                    </table>
+                    <div class="videoInfo">
+                        <a href="#" class="channelName">
+                            <p class="channelNameParagraph">Marques Brownlee</p>
+                        </a>
+                        <a href="#" class="channelName">
+                            <p class="channelMetadataParagraph">6.2M views • 1 week ago</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="video-container">
+                <a href="#" class="thumbnailAnchor">
+                    <img src="https://unsplash.it/360/200?gravity=center" alt="thumbnail" class="thumbnail" />
+                </a>
+                <div class="videoDetails">
+                    <table>
+                        <tr>
+                            <th class="profileWrapper">
+                                <a href="#">
+                                    <img src="https://unsplash.it/36/36?gravity=center" alt="profile pic"
+                                        class="profilePic" />
+                                </a>
+                            </th>
+                            <th>
+                                <a href="#" class="channelName">
+                                    <p class="videoTitle">Video Title</p>
+                                </a>
+                            </th>
+                        </tr>
+                    </table>
+                    <div class="videoInfo">
+                        <a href="#" class="channelName">
+                            <p class="channelNameParagraph">Channel Name</p>
+                        </a>
+                        <a href="#" class="channelName">
+                            <p class="channelMetadataParagraph">9 hours ago • 153k views</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="video-container">
+                <a href="#" class="thumbnailAnchor">
+                    <img src="images/thumbnails/bellaCiao.jpg" alt="thumbnail" class="thumbnail" />
+                </a>
+                <div class="videoDetails">
+                    <table>
+                        <tr>
+                            <th class="profileWrapper">
+                                <a href="#">
+                                    <img src="https://yt3.ggpht.com/ytc/AAUvwnh53ZRIGnyzC28QrfuggCINb3cfNbNWo4Uc6qR9=s176-c-k-c0x00ffffff-no-rj-mo" alt="profile pic"
+                                        class="profilePic" />
+                                </a>
+                            </th>
+                            <th>
+                                <a href="#" class="channelName">
+                                    <p class="videoTitle">Bella Ciao Full Song | La Casa De Papel | Money Heist
+                                    </p>
+                                </a>
+                            </th>
+                        </tr>
+                    </table>
+                    <div class="videoInfo">
+                        <a href="#" class="channelName">
+                            <p class="channelNameParagraph">Netflix India</p>
+                        </a>
+                        <a href="#" class="channelName">
+                            <p class="channelMetadataParagraph">47M views • 1 year ago</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="video-container">
+                <a href="#" class="thumbnailAnchor">
+                    <img src="https://unsplash.it/360/200?gravity=center" alt="thumbnail" class="thumbnail" />
+                </a>
+                <div class="videoDetails">
+                    <table>
+                        <tr>
+                            <th class="profileWrapper">
+                                <a href="#">
+                                    <img src="https://unsplash.it/36/36?gravity=center" alt="profile pic"
+                                        class="profilePic" />
+                                </a>
+                            </th>
+                            <th>
+                                <a href="#" class="channelName">
+                                    <p class="videoTitle">Video Title</p>
+                                </a>
+                            </th>
+                        </tr>
+                    </table>
+                    <div class="videoInfo">
+                        <a href="#" class="channelName">
+                            <p class="channelNameParagraph">Channel Name</p>
+                        </a>
+                        <a href="#" class="channelName">
+                            <p class="channelMetadataParagraph">9 hours ago • 153k views</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="video-container">
+                <a href="#" class="thumbnailAnchor">
+                    <img src="https://unsplash.it/360/200?gravity=center" alt="thumbnail" class="thumbnail" />
+                </a>
+                <div class="videoDetails">
+                    <table>
+                        <tr>
+                            <th class="profileWrapper">
+                                <a href="#">
+                                    <img src="https://unsplash.it/36/36?gravity=center" alt="profile pic"
+                                        class="profilePic" />
+                                </a>
+                            </th>
+                            <th>
+                                <a href="#" class="channelName">
+                                    <p class="videoTitle">Video Title</p>
+                                </a>
+                            </th>
+                        </tr>
+                    </table>
+                    <div class="videoInfo">
+                        <a href="#" class="channelName">
+                            <p class="channelNameParagraph">Channel Name</p>
+                        </a>
+                        <a href="#" class="channelName">
+                            <p class="channelMetadataParagraph">9 hours ago • 153k views</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="video-container">
+                <a href="#" class="thumbnailAnchor">
+                    <img src="https://unsplash.it/360/200?gravity=center" alt="thumbnail" class="thumbnail" />
+                </a>
+                <div class="videoDetails">
+                    <table>
+                        <tr>
+                            <th class="profileWrapper">
+                                <a href="#">
+                                    <img src="https://unsplash.it/36/36?gravity=center" alt="profile pic"
+                                        class="profilePic" />
+                                </a>
+                            </th>
+                            <th>
+                                <a href="#" class="channelName">
+                                    <p class="videoTitle">Video Title</p>
+                                </a>
+                            </th>
+                        </tr>
+                    </table>
+                    <div class="videoInfo">
+                        <a href="#" class="channelName">
+                            <p class="channelNameParagraph">Channel Name</p>
+                        </a>
+                        <a href="#" class="channelName">
+                            <p class="channelMetadataParagraph">9 hours ago • 153k views</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="video-container">
+                <a href="#" class="thumbnailAnchor">
+                    <img src="https://unsplash.it/360/200?gravity=center" alt="thumbnail" class="thumbnail" />
+                </a>
+                <div class="videoDetails">
+                    <table>
+                        <tr>
+                            <th class="profileWrapper">
+                                <a href="#">
+                                    <img src="https://unsplash.it/36/36?gravity=center" alt="profile pic"
+                                        class="profilePic" />
+                                </a>
+                            </th>
+                            <th>
+                                <a href="#" class="channelName">
+                                    <p class="videoTitle">Video Title</p>
+                                </a>
+                            </th>
+                        </tr>
+                    </table>
+                    <div class="videoInfo">
+                        <a href="#" class="channelName">
+                            <p class="channelNameParagraph">Channel Name</p>
+                        </a>
+                        <a href="#" class="channelName">
+                            <p class="channelMetadataParagraph">9 hours ago • 153k views</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="video-container">
+                <a href="#" class="thumbnailAnchor">
+                    <img src="https://unsplash.it/360/200?gravity=center" alt="thumbnail" class="thumbnail" />
+                </a>
+                <div class="videoDetails">
+                    <table>
+                        <tr>
+                            <th class="profileWrapper">
+                                <a href="#">
+                                    <img src="https://unsplash.it/36/36?gravity=center" alt="profile pic"
+                                        class="profilePic" />
+                                </a>
+                            </th>
+                            <th>
+                                <a href="#" class="channelName">
+                                    <p class="videoTitle">Video Title</p>
+                                </a>
+                            </th>
+                        </tr>
+                    </table>
+                    <div class="videoInfo">
+                        <a href="#" class="channelName">
+                            <p class="channelNameParagraph">Channel Name</p>
+                        </a>
+                        <a href="#" class="channelName">
+                            <p class="channelMetadataParagraph">9 hours ago • 153k views</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="video-container">
+                <a href="#" class="thumbnailAnchor">
+                    <img src="https://unsplash.it/360/200?gravity=center" alt="thumbnail" class="thumbnail" />
+                </a>
+                <div class="videoDetails">
+                    <table>
+                        <tr>
+                            <th class="profileWrapper">
+                                <a href="#">
+                                    <img src="https://unsplash.it/36/36?gravity=center" alt="profile pic"
+                                        class="profilePic" />
+                                </a>
+                            </th>
+                            <th>
+                                <a href="#" class="channelName">
+                                    <p class="videoTitle">Video Title</p>
+                                </a>
+                            </th>
+                        </tr>
+                    </table>
+                    <div class="videoInfo">
+                        <a href="#" class="channelName">
+                            <p class="channelNameParagraph">Channel Name</p>
+                        </a>
+                        <a href="#" class="channelName">
+                            <p class="channelMetadataParagraph">9 hours ago • 153k views</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="video-container">
+                <a href="#" class="thumbnailAnchor">
+                    <img src="https://unsplash.it/360/200?gravity=center" alt="thumbnail" class="thumbnail" />
+                </a>
+                <div class="videoDetails">
+                    <table>
+                        <tr>
+                            <th class="profileWrapper">
+                                <a href="#">
+                                    <img src="https://unsplash.it/36/36?gravity=center" alt="profile pic"
+                                        class="profilePic" />
+                                </a>
+                            </th>
+                            <th>
+                                <a href="#" class="channelName">
+                                    <p class="videoTitle">Video Title</p>
+                                </a>
+                            </th>
+                        </tr>
+                    </table>
+                    <div class="videoInfo">
+                        <a href="#" class="channelName">
+                            <p class="channelNameParagraph">Channel Name</p>
+                        </a>
+                        <a href="#" class="channelName">
+                            <p class="channelMetadataParagraph">9 hours ago • 153k views</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="video-container">
+                <a href="#" class="thumbnailAnchor">
+                    <img src="https://unsplash.it/360/200?gravity=center" alt="thumbnail" class="thumbnail" />
+                </a>
+                <div class="videoDetails">
+                    <table>
+                        <tr>
+                            <th class="profileWrapper">
+                                <a href="#">
+                                    <img src="https://unsplash.it/36/36?gravity=center" alt="profile pic"
+                                        class="profilePic" />
+                                </a>
+                            </th>
+                            <th>
+                                <a href="#" class="channelName">
+                                    <p class="videoTitle">Video Title</p>
+                                </a>
+                            </th>
+                        </tr>
+                    </table>
+                    <div class="videoInfo">
+                        <a href="#" class="channelName">
+                            <p class="channelNameParagraph">Channel Name</p>
+                        </a>
+                        <a href="#" class="channelName">
+                            <p class="channelMetadataParagraph">9 hours ago • 153k views</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="video-container">
+                <a href="#" class="thumbnailAnchor">
+                    <img src="https://unsplash.it/360/200?gravity=center" alt="thumbnail" class="thumbnail" />
+                </a>
+                <div class="videoDetails">
+                    <table>
+                        <tr>
+                            <th class="profileWrapper">
+                                <a href="#">
+                                    <img src="https://unsplash.it/36/36?gravity=center" alt="profile pic"
+                                        class="profilePic" />
+                                </a>
+                            </th>
+                            <th>
+                                <a href="#" class="channelName">
+                                    <p class="videoTitle">Video Title</p>
+                                </a>
+                            </th>
+                        </tr>
+                    </table>
+                    <div class="videoInfo">
+                        <a href="#" class="channelName">
+                            <p class="channelNameParagraph">Channel Name</p>
+                        </a>
+                        <a href="#" class="channelName">
+                            <p class="channelMetadataParagraph">9 hours ago • 153k views</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="video-container">
+                <a href="#" class="thumbnailAnchor">
+                    <img src="https://unsplash.it/360/200?gravity=center" alt="thumbnail" class="thumbnail" />
+                </a>
+                <div class="videoDetails">
+                    <table>
+                        <tr>
+                            <th class="profileWrapper">
+                                <a href="#">
+                                    <img src="https://unsplash.it/36/36?gravity=center" alt="profile pic"
+                                        class="profilePic" />
+                                </a>
+                            </th>
+                            <th>
+                                <a href="#" class="channelName">
+                                    <p class="videoTitle">Video Title</p>
+                                </a>
+                            </th>
+                        </tr>
+                    </table>
+                    <div class="videoInfo">
+                        <a href="#" class="channelName">
+                            <p class="channelNameParagraph">Channel Name</p>
+                        </a>
+                        <a href="#" class="channelName">
+                            <p class="channelMetadataParagraph">9 hours ago • 153k views</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="video-container">
+                <a href="#" class="thumbnailAnchor">
+                    <img src="https://unsplash.it/360/200?gravity=center" alt="thumbnail" class="thumbnail" />
+                </a>
+                <div class="videoDetails">
+                    <table>
+                        <tr>
+                            <th class="profileWrapper">
+                                <a href="#">
+                                    <img src="https://unsplash.it/36/36?gravity=center" alt="profile pic"
+                                        class="profilePic" />
+                                </a>
+                            </th>
+                            <th>
+                                <a href="#" class="channelName">
+                                    <p class="videoTitle">Video Title</p>
+                                </a>
+                            </th>
+                        </tr>
+                    </table>
+                    <div class="videoInfo">
+                        <a href="#" class="channelName">
+                            <p class="channelNameParagraph">Channel Name</p>
+                        </a>
+                        <a href="#" class="channelName">
+                            <p class="channelMetadataParagraph">9 hours ago • 153k views</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="video-container">
+                <a href="#" class="thumbnailAnchor">
+                    <img src="https://unsplash.it/360/200?gravity=center" alt="thumbnail" class="thumbnail" />
+                </a>
+                <div class="videoDetails">
+                    <table>
+                        <tr>
+                            <th class="profileWrapper">
+                                <a href="#">
+                                    <img src="https://unsplash.it/36/36?gravity=center" alt="profile pic"
+                                        class="profilePic" />
+                                </a>
+                            </th>
+                            <th>
+                                <a href="#" class="channelName">
+                                    <p class="videoTitle">Video Title</p>
+                                </a>
+                            </th>
+                        </tr>
+                    </table>
+                    <div class="videoInfo">
+                        <a href="#" class="channelName">
+                            <p class="channelNameParagraph">Channel Name</p>
+                        </a>
+                        <a href="#" class="channelName">
+                            <p class="channelMetadataParagraph">9 hours ago • 153k views</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var btnContainer = document.getElementById("myDIV");
+        var btns = btnContainer.getElementsByClassName("container");
+        for (var i = 0; i < btns.length; i++) {
+            btns[i].addEventListener("click", function () {
+                var current = document.getElementsByClassName("active");
+                current[0].className = current[0].className.replace(" active", "");
+                this.className += " active";
+            });
+        }
+    </script>
+</body>
+
+</html>

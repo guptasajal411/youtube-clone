@@ -1,0 +1,317 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    height: auto;
+    background-color: #181818;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.navbar {
+    height: 56px;
+    background-color: #202020;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    border-bottom: 1px solid #ffffff1a;
+
+}
+
+.lightIcon {
+    color: white;
+}
+
+.youtubeAnchor{
+    display: flex;
+    align-items: center;
+}
+
+span {
+    cursor: pointer;
+}
+
+.menu {
+    margin-left: 25px;
+}
+
+.ytIcon {
+    width: 80px;
+    margin-left: 20px;
+}
+
+/* ------------------ */
+.searchDiv {
+    background-color: #202020;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+}
+
+.searchBar {
+    width: 562px;
+    height: 30px;
+    border: 0;
+    background-color: #121212;
+    color: white;
+    font-size: 16px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    letter-spacing: 0.5px;
+    outline: #313131;
+    border: 0.5px solid #313131;
+}
+
+.searchBar:focus {
+    /* background-color: red; */
+    outline: #1c62b9;
+    border: 0.5px solid #1c62b9;
+}
+
+.searchButton {
+    border: none;
+    padding: 0;
+    background-color: #313131;
+}
+
+.searchIcon {
+    color: #4d4d4d;
+    padding: 2px 26px;
+    transition-property: color;
+    transition-duration: 0.25s;
+    transition-timing-function: cubic-bezier(0.05, 0, 0, 1);
+    
+}
+
+.searchIcon:hover{
+    color: #9e9e9e;
+}
+
+.mic {
+    margin-left: 12px;
+    padding: auto 0;
+}
+
+/* ---------------------- */
+.endItems {
+    background-color: #202020;
+    display: flex;
+    align-items: center;
+    width: 210px;
+    margin-right: 40px;
+}
+
+.lastIcons {
+    margin: auto;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.columnNav {
+    background-color: #202020;
+    color: white;
+    flex-direction: column;
+    width: 80%;
+    display: flex;
+    grid-row: 1/9;
+    column-gap: 0;
+    row-gap: 0;
+    overflow: auto;
+}
+
+/* ~~~~~~~~~~~~ */
+.container {
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
+    height: 3%;
+    cursor: pointer;
+}
+
+.container:hover{
+    background-color: #3737379c;
+}
+.active {
+    background-color: #373737;
+}
+
+.columnNavbarIcons {
+    color: #909090
+}
+
+h4 {
+    padding-left: 10%;
+    font-size: 85%;
+    font-weight: 500;
+}
+
+.columnNavbarSection {
+    margin: 10px 0;
+    padding-left: 10%;
+    color: #909090;
+    /* align-self: left; */
+}
+
+.hrForColumnNavbar {
+    background-color: #909090;
+    width: 90%;
+    margin-left: 0;
+    border: none;
+    height: 0.5px;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.genre {
+    background-color: #202020;
+    grid-column: 2/7;
+    height: 56px;
+    width: auto;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 57px;
+    display: flex;
+    overflow: hidden;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    padding-left: 0;
+}
+
+li {
+    font-size: 0.90rem;
+    list-style: none;
+    /* border: 0.5px solid; */
+    padding: 5px 12px;
+    border-radius: 16px;
+    border: 1.5px solid #ffffff1a;;
+    margin: 0 10px;
+    background-color: #373737;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    transition-timing-function: cubic-bezier(0.05, 0, 0, 1);
+    cursor: pointer;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: clip;
+}
+
+li:hover {
+    background-color: #ffffff33;
+
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* VIDEOS */
+.video-section {
+    font-size: 1vw;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    border-bottom: 2px solid #ffffff1a;
+    background-color: #181818;
+    color: white;
+    column-gap: 16px;
+    row-gap: 40px;
+    margin-right: 1.5%;
+}
+
+@media (min-width: 320px) {
+    .video-section {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width: 480px) {
+    .video-section {
+        font-size: 1.7vw;
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (min-width: 900px) {
+    .video-section {
+        font-size: 1.5vw;
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
+
+@media (min-width: 1000px) {
+    .video-section {
+        font-size: 1vw;
+        grid-template-columns: repeat(6, 1fr);
+    }
+}
+
+.video-container {
+    padding-top: 15px;
+    /* width: 100%; */
+}
+.thumbnail {
+    background-color: #464646;
+    height: 56.25%;
+    width: 100%;
+    object-fit:fill;
+}
+
+.profileWrapper {
+    width: 36px;
+    height: 36px;
+}
+
+.profilePic {
+    border-radius: 50%;
+    background-color: #464646;
+    width: 36px;
+    height: 36px;
+}
+
+.videoTitle {
+    text-align: left;
+    padding-left: 8px;
+    color: #eeeeee;
+    width: 100%;
+    font-size: 1rem;
+    margin: 0;
+    word-break: break-all;
+    font-weight: 700;
+}
+
+.videoInfo {
+    padding-left: 50px;
+    margin: 0;
+}
+
+.channelName {
+    transition: 0.1s;
+}
+
+.channelName:link,
+.channelName:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.channelName:visited {
+    color: rgb(175, 175, 175);
+    text-decoration: none;
+}
+
+.channelName:hover {
+    color: white;
+}
+
+.channelNameParagraph {
+    margin: 0;
+    font-size: 0.9rem;
+    padding-top: 6%;
+}
+.channelMetadataParagraph {
+    font-size: 0.9rem;
+    margin-top: 0;
+}
