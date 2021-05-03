@@ -41,11 +41,6 @@ overflow: auto;
 
 ---
 
-## Accomplishments that we're proud of
-I am really proud of making this website. I showed it to my friends, and once they thought that it was actual YouTube homepage. They were tricked for a moment. The fact that I could make it exactly like YouTube developers did(on desktop viewports -_-), is a big accomplishment for me.
-
----
-
 ## What's next for YouTube Clone
 I will try to make this website responsive with media queries. This is really important for this project. After that, it can be viewed on any screen size and will behave exactly like original YouTube does.
 
